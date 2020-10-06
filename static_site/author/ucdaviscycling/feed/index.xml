@@ -11,7 +11,7 @@
 	<title>ucdaviscycling &#8211; UC Davis Cycling</title>
 	<atom:link href="https://dev869.github.io/ucdaviscyclingweb/static_site/author/ucdaviscycling/feed/" rel="self" type="application/rss+xml" />
 	<link>https://dev869.github.io/ucdaviscyclingweb/static_site/</link>
-	<description>Just another WordPress site</description>
+	<description>Collegiate cycling program</description>
 	<lastBuildDate>Mon, 05 Oct 2020 04:09:12 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
@@ -19,6 +19,14 @@
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=5.5.1</generator>
+
+<image>
+	<url>https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/cropped-ucdcycling-32x32.jpg</url>
+	<title>ucdaviscycling &#8211; UC Davis Cycling</title>
+	<link>https://dev869.github.io/ucdaviscyclingweb/static_site/</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
 	<item>
 		<title>Hello world!</title>
 		<link>https://dev869.github.io/ucdaviscyclingweb/static_site/2020/10/05/hello-world/</link>
