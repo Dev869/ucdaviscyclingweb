@@ -1,71 +1,21 @@
-[05/Oct/2020:07:57:58] (I): WordPress Instance Info:
-[05/Oct/2020:07:57:58] (I): Home URL : http://localhost
-[05/Oct/2020:07:57:58] (I): Site URL : http://localhost
-[05/Oct/2020:07:57:58] (I): WordPress Version : 5.5.1
-[05/Oct/2020:07:57:58] (I): Onboarding Version : 1.0.10
-[05/Oct/2020:07:57:58] (I): Multisite : No
-[05/Oct/2020:07:57:58] (I): Server Info : Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.10 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.9 Perl/v5.24.0
-[05/Oct/2020:07:57:58] (I): PHP Version : 7.2.10
-[05/Oct/2020:07:57:58] (I): HTTPS : No
-[05/Oct/2020:07:57:58] (I): PHP Max Execution Time : 30
-[05/Oct/2020:07:57:58] (I): PHP Max Input Vars : 1000
-[05/Oct/2020:07:57:58] (I): Max Upload Size : 8388608
-[05/Oct/2020:07:57:58] (I): Plugins:
-[05/Oct/2020:07:57:58] (I): [PLUGIN] Beaver Builder Plugin (Lite Version) : v2.4.0.5 (The Beaver Builder Team)
-[05/Oct/2020:07:57:58] (I): [PLUGIN] Templates Patterns Collection : v1.0.10 (ThemeIsle)
-[05/Oct/2020:07:57:58] (I): [PLUGIN] Orbit Fox Companion : v2.9.19 (Themeisle)
-[05/Oct/2020:07:57:58] (I): [PLUGIN] Beaver Builder Addons by WPZOOM : v1.3.2 (WPZOOM)
-[05/Oct/2020:07:57:58] (P): Saving remote XML
-[05/Oct/2020:07:57:59] (S): Saved remote XML at path /Users/devinwilson/Documents/School/ucdaviscyclingweb/wp-content/uploads/themeisle-demo-import.xml.
-[05/Oct/2020:07:57:59] (P): Starting content import...
-[05/Oct/2020:07:57:59] (S): Import started.
-[05/Oct/2020:07:57:59] (S): Parsing XML file.
-[05/Oct/2020:07:57:59] (P): Starting parsing file:/Users/devinwilson/Documents/School/ucdaviscyclingweb/wp-content/uploads/themeisle-demo-import.xml
-[05/Oct/2020:07:57:59] (P): Processing categories...
-[05/Oct/2020:07:57:59] (S): Processed categories.
-[05/Oct/2020:07:57:59] (P): Processing tags...
-[05/Oct/2020:07:57:59] (S): No tags to process.
-[05/Oct/2020:07:57:59] (P): Processing terms...
-[05/Oct/2020:07:57:59] (S): Processed terms.
-[05/Oct/2020:07:57:59] (P): Processing posts...
-[05/Oct/2020:07:57:59] (S): Media web-design-studio-02 already exists.
-[05/Oct/2020:07:57:59] (S): Media web-design-studio-03 already exists.
-[05/Oct/2020:07:57:59] (S): Media web-design-studio-04 already exists.
-[05/Oct/2020:07:57:59] (S): Media web-design-studio-05 already exists.
-[05/Oct/2020:07:57:59] (S): Media web-design-studio-06 already exists.
-[05/Oct/2020:07:57:59] (S): Media web-design-studio-07 already exists.
-[05/Oct/2020:07:57:59] (S): Media web-design-studio-08 already exists.
-[05/Oct/2020:07:57:59] (S): Media web-design-studio-09 already exists.
-[05/Oct/2020:07:57:59] (S): Media web-design-studio-10 already exists.
-[05/Oct/2020:07:57:59] (S): Media web-design-studio-11 already exists.
-[05/Oct/2020:07:57:59] (P): Processing single menu item ''...
-[05/Oct/2020:07:57:59] (S): Custom CSS neve already exists.
-[05/Oct/2020:07:57:59] (P): Processing single menu item ''...
-[05/Oct/2020:07:57:59] (P): Processing single menu item ''...
-[05/Oct/2020:07:57:59] (P): Processing single menu item ''...
-[05/Oct/2020:07:57:59] (P): Processing single menu item ''...
-[05/Oct/2020:07:57:59] (S): Media web-agency-logo-2 already exists.
-[05/Oct/2020:07:57:59] (S): Media web-agency-icon already exists.
-[05/Oct/2020:07:57:59] (S): Media web-design-studio-01.jpg already exists.
-[05/Oct/2020:07:57:59] (S): Page Home already exists.
-[05/Oct/2020:07:57:59] (S): Page About Us already exists.
-[05/Oct/2020:07:57:59] (S): Page Portfolio already exists.
-[05/Oct/2020:07:57:59] (S): Page Portfolio Single already exists.
-[05/Oct/2020:07:58:00] (S): Page Contact already exists.
-[05/Oct/2020:07:58:00] (S): Processed posts.
-[05/Oct/2020:07:58:00] (P): Processing single menu item ''...
-[05/Oct/2020:07:58:00] (S): Processed single menu item.
-[05/Oct/2020:07:58:00] (P): Processing single menu item ''...
-[05/Oct/2020:07:58:00] (S): Processed single menu item.
-[05/Oct/2020:07:58:00] (P): Processing single menu item ''...
-[05/Oct/2020:07:58:00] (S): Processed single menu item.
-[05/Oct/2020:07:58:00] (P): Processing single menu item ''...
-[05/Oct/2020:07:58:00] (S): Processed single menu item.
-[05/Oct/2020:07:58:00] (P): Processing single menu item ''...
-[05/Oct/2020:07:58:00] (S): Processed single menu item.
-[05/Oct/2020:07:58:00] (P): Cleaning up import with id ...
-[05/Oct/2020:07:58:00] (P): Done cleanup. Flushing cache...
-[05/Oct/2020:07:58:00] (P): Flushed cache. Removing temporary data..
-[05/Oct/2020:07:58:00] (S): Done importing
-[05/Oct/2020:07:58:00] (P): Busting elementor cache
-[05/Oct/2020:07:58:00] (S): Front page set up with id: 56.
+[07/Oct/2020:15:32:58] (I): WordPress Instance Info:
+[07/Oct/2020:15:32:58] (I): Home URL : http://localhost
+[07/Oct/2020:15:32:58] (I): Site URL : http://localhost
+[07/Oct/2020:15:32:58] (I): WordPress Version : 5.5.1
+[07/Oct/2020:15:32:58] (I): Onboarding Version : 1.0.10
+[07/Oct/2020:15:32:58] (I): Multisite : No
+[07/Oct/2020:15:32:58] (I): Server Info : Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.2.10 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.9 Perl/v5.24.0
+[07/Oct/2020:15:32:58] (I): PHP Version : 7.2.10
+[07/Oct/2020:15:32:58] (I): HTTPS : No
+[07/Oct/2020:15:32:58] (I): PHP Max Execution Time : 30
+[07/Oct/2020:15:32:58] (I): PHP Max Input Vars : 1000
+[07/Oct/2020:15:32:58] (I): Max Upload Size : 8388608
+[07/Oct/2020:15:32:58] (I): Plugins:
+[07/Oct/2020:15:32:58] (I): [PLUGIN] Header Footer for Beaver Builder : v1.2.0 (Brainstorm Force)
+[07/Oct/2020:15:32:58] (I): [PLUGIN] Beaver Builder Plugin (Lite Version) : v2.4.0.5 (The Beaver Builder Team)
+[07/Oct/2020:15:32:58] (I): [PLUGIN] Custom Adobe Fonts (Typekit) : v1.0.18 (Brainstorm Force)
+[07/Oct/2020:15:32:58] (I): [PLUGIN] Scriptless Social Sharing : v3.1.5 (Robin Cornett)
+[07/Oct/2020:15:32:58] (I): [PLUGIN] Simply Static : v2.1.0 (Code of Conduct LLC)
+[07/Oct/2020:15:32:58] (I): [PLUGIN] Templates Patterns Collection : v1.0.10 (ThemeIsle)
+[07/Oct/2020:15:32:58] (I): [PLUGIN] Orbit Fox Companion : v2.9.19 (Themeisle)
+[07/Oct/2020:15:32:58] (I): [PLUGIN] Beaver Builder Addons by WPZOOM : v1.3.2 (WPZOOM)
