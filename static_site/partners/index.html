@@ -30,10 +30,10 @@ img.emoji {
 }
 </style>
 	<link rel='stylesheet' id='wp-block-library-css'  href='https://dev869.github.io/ucdaviscyclingweb/static_site/wp-includes/css/dist/block-library/style.min.css?ver=5.5.1' type='text/css' media='all' />
-<link rel='stylesheet' id='fl-builder-layout-111-css'  href='https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/bb-plugin/cache/111-layout.css?ver=bcbfd28edb056aa91e01d170ddf056b6' type='text/css' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-111-css'  href='https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/bb-plugin/cache/111-layout.css?ver=76bd06ce0471c3540ee2cd3f0664b031' type='text/css' media='all' />
 <link rel='stylesheet' id='custom-typekit-css-css'  href='https://use.typekit.net/jcp6wtq.css?ver=1.0.18' type='text/css' media='all' />
 <link rel='stylesheet' id='bbhf-style-css'  href='https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/plugins/bb-header-footer/assets/css/bb-header-footer.css?ver=1.2.0' type='text/css' media='all' />
-<link rel='stylesheet' id='fl-builder-layout--css'  href='https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/bb-plugin/cache/-layout-partial.css?ver=bcbfd28edb056aa91e01d170ddf056b6' type='text/css' media='all' />
+<link rel='stylesheet' id='fl-builder-layout--css'  href='https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/bb-plugin/cache/-layout-partial.css?ver=76bd06ce0471c3540ee2cd3f0664b031' type='text/css' media='all' />
 <link rel='stylesheet' id='neve-style-css'  href='https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/themes/neve/style.min.css?ver=2.8.2' type='text/css' media='all' />
 <style id='neve-style-inline-css' type='text/css'>
 .header-menu-sidebar-inner li.menu-item-nav-search { display: none; }
@@ -172,6 +172,16 @@ font-style: normal;
 
 /* End Footer */
 
+/* Photo Links */
+
+.photolink {
+  transition: transform .4s; /* Animation */
+
+}
+
+.photolink:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 @media(max-width: 750px) {
 	.fl-col.fl-node-5f7d48ddb4175.fl-col-small {
@@ -224,15 +234,14 @@ font-style: normal;
 
 		<ul id="nv-primary-navigation-main" class="primary-menu-ul nav-ul"><li id="menu-item-218" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-218"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/about/"><span class="menu-item-title-wrap">About</span><div class="caret-wrap 1" tabindex="0"><span class="caret"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg></span></div></a>
 <ul class="sub-menu">
-	<li id="menu-item-219" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-219"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/racing/">Racing</a></li>
 	<li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/officers/">Officers</a></li>
 	<li id="menu-item-217" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/coaches/">Coaches</a></li>
 </ul>
 </li>
-<li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-116"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/resources/"><span class="menu-item-title-wrap">Resources</span><div class="caret-wrap 5" tabindex="0"><span class="caret"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg></span></div></a>
+<li id="menu-item-116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-116"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/resources/"><span class="menu-item-title-wrap">Resources</span><div class="caret-wrap 4" tabindex="0"><span class="caret"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg></span></div></a>
 <ul class="sub-menu">
 	<li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/rides/">Local Rides</a></li>
-	<li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/media/">Media</a></li>
+	<li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/media/">Coming Soon</a></li>
 </ul>
 </li>
 <li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-111 current_page_item menu-item-115"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/partners/" aria-current="page">Partners</a></li>
@@ -313,15 +322,14 @@ font-style: normal;
 
 		<ul id="nv-primary-navigation-sidebar" class="primary-menu-ul nav-ul"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-218"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/about/"><span class="menu-item-title-wrap">About</span><div class="caret-wrap 1" tabindex="0"><span class="caret"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg></span></div></a>
 <ul class="sub-menu">
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-219"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/racing/">Racing</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/officers/">Officers</a></li>
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-217"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/coaches/">Coaches</a></li>
 </ul>
 </li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-116"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/resources/"><span class="menu-item-title-wrap">Resources</span><div class="caret-wrap 5" tabindex="0"><span class="caret"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg></span></div></a>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-116"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/resources/"><span class="menu-item-title-wrap">Resources</span><div class="caret-wrap 4" tabindex="0"><span class="caret"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"/></svg></span></div></a>
 <ul class="sub-menu">
 	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/rides/">Local Rides</a></li>
-	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/media/">Media</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/media/">Coming Soon</a></li>
 </ul>
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-111 current_page_item menu-item-115"><a href="https://dev869.github.io/ucdaviscyclingweb/static_site/partners/" aria-current="page">Partners</a></li>
@@ -384,7 +392,9 @@ font-style: normal;
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
 	<div class="fl-photo-content fl-photo-img-png">
+				<a href="https://www.visiontechusa.com/" target="_blank" rel="noopener"  itemprop="url">
 				<img loading="lazy" class="fl-photo-img wp-image-259 size-full" src="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/vision_sponsor-1.png" alt="vision_sponsor" itemprop="image" height="150" width="300" title="vision_sponsor"  />
+				</a>
 					</div>
 	</div>
 	</div>
@@ -397,7 +407,9 @@ font-style: normal;
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
 	<div class="fl-photo-content fl-photo-img-png">
+				<a href="https://ircbike.com/" target="_blank" rel="noopener"  itemprop="url">
 				<img loading="lazy" class="fl-photo-img wp-image-260 size-full" src="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/irc_sponsor-1.png" alt="irc_sponsor" itemprop="image" height="186" width="598" title="irc_sponsor" srcset="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/irc_sponsor-1.png 598w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/irc_sponsor-1-300x93.png 300w" sizes="(max-width: 598px) 100vw, 598px" />
+				</a>
 					</div>
 	</div>
 	</div>
@@ -410,7 +422,9 @@ font-style: normal;
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
 	<div class="fl-photo-content fl-photo-img-jpg">
+				<a href="https://www.honeystinger.com/" target="_blank" rel="noopener"  itemprop="url">
 				<img loading="lazy" class="fl-photo-img wp-image-262 size-full" src="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/honeystinger_sponsor.jpg" alt="honeystinger_sponsor" itemprop="image" height="354" width="1000" title="honeystinger_sponsor" srcset="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/honeystinger_sponsor.jpg 1000w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/honeystinger_sponsor-300x106.jpg 300w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/honeystinger_sponsor-768x272.jpg 768w" sizes="(max-width: 1000px) 100vw, 1000px" />
+				</a>
 					</div>
 	</div>
 	</div>
@@ -423,7 +437,9 @@ font-style: normal;
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
 	<div class="fl-photo-content fl-photo-img-png">
+				<a href="https://www.smithoptics.com/" target="_self" itemprop="url">
 				<img loading="lazy" class="fl-photo-img wp-image-261 size-full" src="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/smith_sponsor-1.png" alt="smith_sponsor" itemprop="image" height="108" width="466" title="smith_sponsor" srcset="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/smith_sponsor-1.png 466w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/smith_sponsor-1-300x70.png 300w" sizes="(max-width: 466px) 100vw, 466px" />
+				</a>
 					</div>
 	</div>
 	</div>
@@ -439,7 +455,9 @@ font-style: normal;
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
 	<div class="fl-photo-content fl-photo-img-png">
+				<a href="https://www.stitchet.com/" target="_blank" rel="noopener"  itemprop="url">
 				<img loading="lazy" class="fl-photo-img wp-image-258 size-full" src="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/stitchet_spnosor.png" alt="stitchet_spnosor" itemprop="image" height="628" width="1200" title="stitchet_spnosor" srcset="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/stitchet_spnosor.png 1200w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/stitchet_spnosor-300x157.png 300w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/stitchet_spnosor-1024x536.png 1024w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/stitchet_spnosor-768x402.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" />
+				</a>
 					</div>
 	</div>
 	</div>
@@ -452,7 +470,9 @@ font-style: normal;
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
 	<div class="fl-photo-content fl-photo-img-png">
+				<a href="https://www.voler.com/" target="_blank" rel="noopener"  itemprop="url">
 				<img loading="lazy" class="fl-photo-img wp-image-257 size-full" src="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/voler_sponsor-1.png" alt="voler_sponsor" itemprop="image" height="415" width="2346" title="voler_sponsor" srcset="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/voler_sponsor-1.png 2346w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/voler_sponsor-1-300x53.png 300w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/voler_sponsor-1-1024x181.png 1024w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/voler_sponsor-1-768x136.png 768w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/voler_sponsor-1-1536x272.png 1536w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/voler_sponsor-1-2048x362.png 2048w" sizes="(max-width: 2346px) 100vw, 2346px" />
+				</a>
 					</div>
 	</div>
 	</div>
@@ -465,7 +485,9 @@ font-style: normal;
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
 	<div class="fl-photo-content fl-photo-img-jpg">
+				<a href="https://www.giant-bicycles.com/us" target="_blank" rel="noopener"  itemprop="url">
 				<img loading="lazy" class="fl-photo-img wp-image-263 size-full" src="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/giant-logo-big.jpg" alt="giant-logo-big" itemprop="image" height="441" width="2044" title="giant-logo-big" srcset="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/giant-logo-big.jpg 2044w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/giant-logo-big-300x65.jpg 300w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/giant-logo-big-1024x221.jpg 1024w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/giant-logo-big-768x166.jpg 768w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/giant-logo-big-1536x331.jpg 1536w" sizes="(max-width: 2044px) 100vw, 2044px" />
+				</a>
 					</div>
 	</div>
 	</div>
@@ -478,7 +500,9 @@ font-style: normal;
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
 	<div class="fl-photo-content fl-photo-img-png">
+				<a href="https://davisbikeclub.org/" target="_blank" rel="noopener"  itemprop="url">
 				<img loading="lazy" class="fl-photo-img wp-image-264 size-full" src="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/davisbikeclub.png" alt="davisbikeclub" itemprop="image" height="300" width="320" title="davisbikeclub" srcset="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/davisbikeclub.png 320w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/davisbikeclub-300x281.png 300w" sizes="(max-width: 320px) 100vw, 320px" />
+				</a>
 					</div>
 	</div>
 	</div>
@@ -494,7 +518,9 @@ font-style: normal;
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
 	<div class="fl-photo-content fl-photo-img-png">
+				<a href="https://www.fullspeedahead.com/" target="_blank" rel="noopener"  itemprop="url">
 				<img loading="lazy" class="fl-photo-img wp-image-265 size-full" src="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/fsa_logo-black.png" alt="fsa_logo-black" itemprop="image" height="90" width="392" title="fsa_logo-black" srcset="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/fsa_logo-black.png 392w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/fsa_logo-black-300x69.png 300w" sizes="(max-width: 392px) 100vw, 392px" />
+				</a>
 					</div>
 	</div>
 	</div>
@@ -507,7 +533,9 @@ font-style: normal;
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
 	<div class="fl-photo-content fl-photo-img-png">
+				<a href="https://bikebarn.ucdavis.edu/" target="_blank" rel="noopener"  itemprop="url">
 				<img loading="lazy" class="fl-photo-img wp-image-266 size-full" src="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/bikebarn_sponsor-1.png" alt="bikebarn_sponsor" itemprop="image" height="1076" width="1076" title="bikebarn_sponsor" srcset="https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/bikebarn_sponsor-1.png 1076w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/bikebarn_sponsor-1-300x300.png 300w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/bikebarn_sponsor-1-1024x1024.png 1024w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/bikebarn_sponsor-1-150x150.png 150w, https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/2020/10/bikebarn_sponsor-1-768x768.png 768w" sizes="(max-width: 1076px) 100vw, 1076px" />
+				</a>
 					</div>
 	</div>
 	</div>
@@ -600,12 +628,12 @@ font-style: normal;
 </footer>
 
 </div><!--/.wrapper-->
-<!-- Enter your scripts here --><script type='text/javascript' src='https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/bb-plugin/cache/111-layout.js?ver=bcbfd28edb056aa91e01d170ddf056b6' id='fl-builder-layout-111-js'></script>
+<!-- Enter your scripts here --><script type='text/javascript' src='https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/bb-plugin/cache/111-layout.js?ver=76bd06ce0471c3540ee2cd3f0664b031' id='fl-builder-layout-111-js'></script>
 <script type='text/javascript' src='https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/plugins/bb-header-footer/assets/js/bb-header-footer.js?ver=1.2.0' id='bb-header-footer-js'></script>
-<script type='text/javascript' src='https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/bb-plugin/cache/-layout-partial.js?ver=bcbfd28edb056aa91e01d170ddf056b6' id='fl-builder-layout--js'></script>
+<script type='text/javascript' src='https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/uploads/bb-plugin/cache/-layout-partial.js?ver=76bd06ce0471c3540ee2cd3f0664b031' id='fl-builder-layout--js'></script>
 <script type='text/javascript' id='neve-script-js-extra'>
 /* <![CDATA[ */
-var NeveProperties = {"ajaxurl":"https:\/\/dev869.github.io\/ucdaviscyclingweb\/static_site\/wp-admin\/admin-ajax.php","nonce":"be93406807","isRTL":"","isCustomize":""};
+var NeveProperties = {"ajaxurl":"https:\/\/dev869.github.io\/ucdaviscyclingweb\/static_site\/wp-admin\/admin-ajax.php","nonce":"9817c60f38","isRTL":"","isCustomize":""};
 /* ]]> */
 </script>
 <script type='text/javascript' src='https://dev869.github.io/ucdaviscyclingweb/static_site/wp-content/themes/neve/assets/js/build/modern/frontend.js?ver=2.8.2' id='neve-script-js' async></script>
